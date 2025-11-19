@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Simulation build artifacts
+sim_build/
+*.vcd
+*.fst
+*.fst.hier
+*.xml
+results.xml
+
+# Verilator
+obj_dir/
+*.d
+*.mk
+*.cpp
+*.h
+Vtop*
+
+# Vivado
+*.jou
+*.log
+*.str
+*.xpr.user
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*~
